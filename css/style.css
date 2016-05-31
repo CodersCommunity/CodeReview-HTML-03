@@ -1,50 +1,56 @@
-body
-{
+body {
 	background-color: #303030;
-	color: #ffffff;
+	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 }
 
-#container
-{
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.container {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.rectangle
-{
+.rectangle {
 	width: 960px;
 	margin: 20px;
 	text-align: center;
 }
 
-.square
-{
+.square {
 	width: 50%;
 	float: left;
 }
 
-#logo
-{
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
 	width: 600px;
 	text-align: left;
+	margin: 0;
 }
 
-#zegar
-{
+.timer {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
 	text-align: left;
 }
 
-.tile1
-{
+.tile1 {
 	margin: 10px;
 	width: 230px;
 	height: 142px;
@@ -53,28 +59,24 @@ body
 	text-align: center;
 }
 
-.tile1:hover
-{
+.tile1:hover {
 	background-color: #2084c2;
 }
 
-.tile2
-{
+.tile2 {
 	margin: 10px;
 	width: 230px;
 	height: 142px;
-	background-color: #666666;
+	background-color: #666;
 	float: left;
 	text-align: center;
 }
 
-.tile2:hover
-{
-	background-color: #555555;
+.tile2:hover {
+	background-color: #555;
 }
 
-.tile3
-{
+.tile3 {
 	margin: 10px;
 	width: 230px;
 	height: 142px;
@@ -83,13 +85,11 @@ body
 	text-align: center;
 }
 
-.tile3:hover
-{
+.tile3:hover {
 	background-color: #82b637;
 }
 
-.tile4
-{
+.tile4 {
 	margin: 10px;
 	width: 420px;
 	height: 82px;
@@ -100,18 +100,38 @@ body
 	line-height: 150%;
 }
 
-.tile5
-{
+.tile5 {
 	margin: 10px;
 	width: 420px;
 	height: 244px;
-	background-color: #666666;
+	background-color: #666;
 	text-align: justify;
 	padding: 30px;
 }
 
-.yt
-{
+h2 {
+	margin: 0;
+	font-size: 1em;
+}
+
+.tileicon {
+	display: block;
+}
+
+.quote-text {
+	font-style: italic;
+	margin: 0;
+}
+
+cite {
+	font-style: normal
+}
+
+cite::before {
+	content: '– ';
+}
+
+.yt {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
@@ -119,13 +139,11 @@ body
 	float: left;
 }
 
-.yt:hover
-{
+.yt:hover {
 	background-color: #c83237;
 }
 
-.fb
-{
+.fb {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
@@ -133,13 +151,11 @@ body
 	float: left;
 }
 
-.fb:hover
-{
+.fb:hover {
 	background-color: #3557a2;
 }
 
-.gplus
-{
+.gplus {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
@@ -147,13 +163,11 @@ body
 	float: left;
 }
 
-.gplus:hover
-{
+.gplus:hover {
 	background-color: #c84222;
 }
 
-.tw
-{
+.tw {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
@@ -161,31 +175,38 @@ body
 	float: left;
 }
 
-.tw:hover
-{
+.tw:hover {
 	background-color: #2084c2;
 }
 
-a.tilelink
-{
-	color: #ffffff;
+.tilelink {
+	color: #fff;
 	text-decoration: none;
 	display: block;
 	width: 230px;
 	height: 142px;
 }
 
-a.tilelinkhtml5
-{
-	color: #ffffff;
+.tilelinkhtml5 {
+	color: #fff;
 	text-decoration: none;
 }
 
-a.sociallink
-{
-	color: #ffffff;
+.sociallink {
+	color: #fff;
 	text-decoration: none;
 	display: block;
 	width: 105px;
 	height: 142px;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
