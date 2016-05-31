@@ -6,4 +6,4 @@ Temat: http://forum.pasja-informatyki.pl/146286/cr-html-%233-linkowanie-podstron
 
 ---
 
-Ten branch zawiera oryginalny, niemodyfikowany kod odcinka (z paczki został jedynie wywalony plik `README.txt` z fontello). Na pozostałych branchach znajdują się odpowiednie poprawki.
+Ten branch zawiera oryginalny, niemodyfikowany kod odcinka (z paczki zostały jedynie wywalone pliki `README.txt` i `LICENSE.txt` z fontello). Na pozostałych branchach znajdują się odpowiednie poprawki.
