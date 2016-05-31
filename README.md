@@ -30,7 +30,7 @@ _Rzeczy zmienione, a oznaczone jako **preferencja** są po prostu moimi osobisty
 * Zmieniłem styl cudzysłowów w arkuszu z Google Fonts (nie, to **NIE** jest preferencja – konsekwencja stylu jest niezmiernie istotna).
 * Usunąłem `div.container` i jego style przeniosłem na `body`. Bo jeśli można pozbyć się dodatkowego elementu, to dlaczego tego nie zrobić? (**preferencja**)
 * Dla każdej podstrony ustawiłem unikalny tytuł (co jest ważne nie tylko ze względu na SEO, ale przede wszystkim dostępność i UX).
-* Style z `:hover` przepisałem na `:focus` dla [zwiększenia użyteczności](http://outlinenone.com).
+* Style z `:hover` przepisałem na `:focus` dla [zwiększenia użyteczności](http://outlinenone.com). Wymagało to przeniesienie stylów bezpośrednio z kafelek na linki.
 
 ### `head`
 
