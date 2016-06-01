@@ -4,7 +4,7 @@
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-			<title>Jan Kowalski</title>
+			<title>Kontakt z Janem Kowalskim</title>
 
 			<meta name="description" content="Stworzę dla Ciebie wyjątkową stronę www! Zatrudnij programistę webowego: PHP, JavaScript, HTML, CSS, MySQL, WordPress, Joomla, Drupal.">
 			<meta name="keywords" content="zamów, stronę, tworzenie, www, programista, portfolio, php, javascript, html, css, WordPress, Joomla, Drupal">
@@ -19,7 +19,8 @@
 				<h1 class="header__logo logo">
 					<a href="/" class="logo__link">Jan Kowalski</a>
 				</h1>
-				<time id="timer" class="header__timer timer">12:00:00</time>
+				<span class="visuallyhidden">Aktualny czas:</span>
+				<time id="timer" class="header__timer timer" datetime="<?=(new DateTime())->format( 'c' );?>"><?=(new DateTime())->format( 'H:i:s' );?></time>
 			</header>
 
 			<div class="column">
@@ -62,7 +63,7 @@
 
 			<div class="column clearfix">
 				<main class="main">
-					<h2 class="main__title">Witaj w moim portfolio!</h2>
+					<h2 class="main__title">Kontakt ze mną</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar ipsum mauris, ac elementum felis convallis non. Duis aliquam felis vel dignissim tincidunt. In tellus mauris, tempor rutrum blandit in, efficitur ac quam. Mauris eu orci scelerisque, placerat eros id, condimentum justo. Suspendisse ac mattis orci, at mollis orci.</p>
 				</main>
 

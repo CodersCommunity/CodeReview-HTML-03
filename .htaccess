@@ -17,7 +17,7 @@ Deny from all
 </IfModule>
 
 RewriteEngine on
-RewriteRule kim-jestem kimjestem.html
-RewriteRule oferta oferta.html
-RewriteRule cv cv.html
-RewriteRule kontakt kontakt.html
+RewriteRule kim-jestem kimjestem.php
+RewriteRule oferta oferta.php
+RewriteRule cv cv.php
+RewriteRule kontakt kontakt.php

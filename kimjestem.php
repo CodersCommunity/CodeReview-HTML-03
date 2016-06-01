@@ -19,7 +19,8 @@
 				<h1 class="header__logo logo">
 					<a href="/" class="logo__link">Jan Kowalski</a>
 				</h1>
-				<time id="timer" class="header__timer timer">12:00:00</time>
+				<span class="visuallyhidden">Aktualny czas:</span>
+				<time id="timer" class="header__timer timer" datetime="<?=(new DateTime())->format( 'c' );?>"><?=(new DateTime())->format( 'H:i:s' );?></time>
 			</header>
 
 			<div class="column">
