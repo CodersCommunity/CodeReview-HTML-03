@@ -1,3 +1,7 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #303030;
 	color: #fff;
@@ -17,21 +21,11 @@ body {
 	margin-right: auto;
 }
 
-.rectangle {
+.header, .footer {
 	width: 960px;
 	margin: 20px;
 	text-align: center;
-}
-
-.square {
-	width: 50%;
-	float: left;
-}
-
-.nav {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+	clear: both;
 }
 
 .logo {
@@ -43,6 +37,11 @@ body {
 	margin: 0;
 }
 
+.logo__link {
+	color: #fff;
+	text-decoration: none;
+}
+
 .timer {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
@@ -50,154 +49,129 @@ body {
 	text-align: left;
 }
 
-.tile1 a {
+.column {
+	width: 50%;
+	float: left;
+}
+
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tile {
+	margin: 0;
+}
+
+.tile__link {
 	margin: 10px;
 	width: 230px;
 	height: 142px;
 	background-color: #3095d3;
 	float: left;
 	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	display: block;
 }
 
-.tile1 a:hover, .tile1 a:focus {
+.tile__link:hover, .tile__link:focus {
 	background-color: #2084c2;
 }
 
-.tile2 a {
-	margin: 10px;
-	width: 230px;
-	height: 142px;
+.tile_secondary .tile__link {
 	background-color: #666;
-	float: left;
-	text-align: center;
 }
 
-.tile2 a:hover, .tile2 a:focus {
+.tile_secondary .tile__link:hover, .tile_secondary .tile__link:focus {
 	background-color: #555;
 }
 
-.tile3 a {
-	margin: 10px;
-	width: 230px;
-	height: 142px;
+.tile_tertiary .tile__link {
 	background-color: #93c748;
-	float: left;
-	text-align: center;
 }
 
-.tile3 a:hover, .tile3 a:focus {
+.tile_tertiary .tile__link:hover, .tile_tertiary .tile__link:focus {
 	background-color: #82b637;
 }
 
-.tile4 {
+.tile_full-width {
 	margin: 10px;
-	width: 420px;
-	height: 82px;
+	height: 142px;
 	background-color: #ee5a32;
-	text-align: center;
 	font-size: 26px;
 	padding: 30px;
 	line-height: 150%;
 }
 
-.tile5 {
-	margin: 10px;
-	width: 420px;
-	height: 244px;
-	background-color: #666;
-	text-align: justify;
-	padding: 30px;
-}
-
-h2 {
-	margin: 0;
-	font-size: 1em;
-}
-
-.tileicon {
+.tile__icon {
 	display: block;
 }
 
-.quote-text {
+.quote__text {
 	font-style: italic;
 	margin: 0;
 }
 
-cite {
+.quote__source {
 	font-style: normal
 }
 
-cite::before {
+.quote__source::before {
 	content: '– ';
 }
 
-.yt a {
+.main {
+	margin: 10px;
+	background-color: #666;
+	text-align: justify;
+	padding: 30px;
+	height: 304px;
+}
+
+.main__title {
+	margin: 0;
+	font-size: 1em;
+}
+
+.social__link {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
 	background-color: #d94348;
 	float: left;
+	color: #fff;
+	text-decoration: none;
+	display: block;
 }
 
-.yt a:hover, .yt a:focus {
+.social_youtube .social__link:hover, .social_youtube .social__link:focus {
 	background-color: #c83237;
 }
 
-.fb a {
-	margin: 10px;
-	width: 105px;
-	height: 142px;
+.social_facebook .social__link {
 	background-color: #4668b3;
-	float: left;
 }
 
-.fb a:hover, .fb a:focus {
+.social_facebook .social__link:hover, .social_facebook .social__link:focus {
 	background-color: #3557a2;
 }
 
-.gplus a {
-	margin: 10px;
-	width: 105px;
-	height: 142px;
+.social_gplus .social__link {
 	background-color: #d95333;
-	float: left;
 }
 
-.gplus a:hover, .gplus a:focus {
+.social_gplus .social__link:hover, .social_gplus .social__link:focus {
 	background-color: #c84222;
 }
 
-.tw a {
-	margin: 10px;
-	width: 105px;
-	height: 142px;
+.social_twitter .social__link {
 	background-color: #3095d3;
-	float: left;
 }
 
-.tw a:hover, .tw a:focus {
+.social_twitter .social__link:hover, .social_twitter .social__link:focus {
 	background-color: #2084c2;
-}
-
-.tilelink {
-	color: #fff;
-	text-decoration: none;
-	display: block;
-	width: 230px;
-	height: 142px;
-}
-
-.tilelinkhtml5 {
-	color: #fff;
-	text-decoration: none;
-}
-
-.sociallink {
-	color: #fff;
-	text-decoration: none;
-	display: block;
-	width: 105px;
-	height: 142px;
 }
 
 .visuallyhidden {

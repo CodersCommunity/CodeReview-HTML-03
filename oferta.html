@@ -15,81 +15,81 @@
 		</head>
 
 		<body class="container">
-			<header class="rectangle clearfix">
-				<h1 class="logo">
-					<a href="/" class="tilelinkhtml5">Jan Kowalski</a>
+			<header class="header clearfix">
+				<h1 class="header__logo logo">
+					<a href="/" class="logo__link">Jan Kowalski</a>
 				</h1>
-				<time id="timer" class="timer">12:00:00</time>
+				<time id="timer" class="header__timer timer">12:00:00</time>
 			</header>
 
-			<div class="square">
+			<div class="column">
 				<nav>
 					<h2 class="visuallyhidden">Nawigacja</h2>
 					<ul class="nav clearfix">
-						<li class="tile1">
-							<a href="kim-jestem" class="tilelink">
-								<i class="icon-user tileicon" aria-hidden="true"></i>
+						<li class="nav__item tile">
+							<a href="kim-jestem" class="tile__link">
+								<i class="tile__icon icon-user" aria-hidden="true"></i>
 								Kim jestem?
 							</a>
 						</li>
-						<li class="tile1">
-							<a href="oferta" class="tilelink">
-								<i class="icon-laptop tileicon" aria-hidden="true"></i>
+						<li class="nav__item tile">
+							<a href="oferta" class="tile__link">
+								<i class="tile__icon icon-laptop" aria-hidden="true"></i>
 								Co oferuję?
 							</a>
 						</li>
 
-						<li class="tile2">
-							<a href="cv-programista" class="tilelink">
-								<i class="icon-graduation-cap tileicon" aria-hidden="true"></i>
+						<li class="nav__item tile tile_secondary">
+							<a href="cv" class="tile__link">
+								<i class="tile__icon icon-graduation-cap" aria-hidden="true"></i>
 								Curriculum vitae
 							</a>
 						</li>
-						<li class="tile3 clearfix">
-							<a href="kontakt" class="tilelink">
-								<i class="icon-mail tileicon" aria-hidden="true"></i>
+						<li class="nav__item tile tile_tertiary clearfix">
+							<a href="kontakt" class="tile__link">
+								<i class="tile__icon icon-mail" aria-hidden="true"></i>
 								Kontakt ze mną
 							</a>
 						</li>
 					</ul>
 				</nav>
 
-				<blockquote class="tile4">
-					<p class="quote-text">Talk is cheap. Show me the code!</p>
-					<cite>Linus Torvalds, twórca Linuxa</cite>
+				<blockquote class="tile tile_full-width quote">
+					<p class="quote__text">Talk is cheap. Show me the code!</p>
+					<cite class="quote__source">Linus Torvalds, twórca Linuxa</cite>
 				</blockquote>
 			</div>
 
-			<div class="square clearfix">
-				<main class="tile5">
-					<h2>Oferta handlowa</h2>
+			<div class="column clearfix">
+				<main class="main">
+					<h2 class="main__title">Oferta handlowa</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pulvinar ipsum mauris, ac elementum felis convallis non. Duis aliquam felis vel dignissim tincidunt. In tellus mauris, tempor rutrum blandit in, efficitur ac quam. Mauris eu orci scelerisque, placerat eros id, condimentum justo. Suspendisse ac mattis orci, at mollis orci.</p>
 				</main>
 
 				<nav>
 					<h2 class="visuallyhidden">Moja obecność w sieciach społecznościowych</h2>
 					<ul class="nav clearfix">
-						<li class="yt">
-							<a href="http://youtube.com" class="sociallink">
-								<i class="icon-youtube" aria-hidden="true"></i>
+						<li class="nav__item social social_youtube">
+							<a href="http://youtube.com" class="social__link">
+								<i class="social__icon icon-youtube" aria-hidden="true"></i>
 								<span class="visuallyhidden">YouTube</span>
 							</a>
 						</li>
-						<li class="fb">
-							<a href="http://facebook.com" class="sociallink">
-								<i class="icon-facebook" aria-hidden="true"></i>
+						<li class="nav__item social social_facebook">
+							<a href="http://facebook.com" class="social__link">
+								<i class="social__icon icon-facebook" aria-hidden="true"></i>
 								<span class="visuallyhidden">Facebook</span>
 							</a>
 						</li>
-						<li class="gplus">
-							<a href="http://plus.google.com" class="sociallink">
-								<i class="icon-gplus" aria-hidden="true"></i>
+						<li class="nav__item social social_gplus">
+							<a href="http://plus.google.com" class="social__link">
+								<i class="social__icon icon-gplus" aria-hidden="true"></i>
 								<span class="visuallyhidden">Google+</span>
 							</a>
 						</li>
-						<li class="tw">
-							<a href="http://twitter.com" class="sociallink">
-								<i class="icon-twitter" aria-hidden="true"></i>
+						<li class="nav__item social social_twitter">
+							<a href="http://twitter.com" class="social__link">
+								<i class="social__icon icon-twitter" aria-hidden="true"></i>
 								<span class="visuallyhidden">Twitter</span>
 							</a>
 						</li>
@@ -97,7 +97,7 @@
 				</nav>
 			</div>
 
-			<footer class="rectangle">2015 © Jan Kowalski – Portfolio. Programista webowy zaprasza do współpracy! <i class="icon-mail-alt" aria-hidden="true"></i> <span class="visuallyhidden">E-mail</span><a href="mailto:jan.kowalski@adres.com">jan.kowalski@adres.com</a></footer>
+			<footer class="footer">2015 © Jan Kowalski – Portfolio. Programista webowy zaprasza do współpracy! <i class="icon-mail-alt" aria-hidden="true"></i> <span class="visuallyhidden">E-mail</span><a href="mailto:jan.kowalski@adres.com">jan.kowalski@adres.com</a></footer>
 
 			<script src="js/timer.js"></script>
 		</body>
