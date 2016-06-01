@@ -15,24 +15,29 @@ body {
 	clear: both;
 }
 
-.container {
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
+@media screen and (min-width: 1000px) {
+	.container {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 .header, .footer {
-	width: 960px;
 	margin: 20px;
 	text-align: center;
 	clear: both;
 }
 
+@media screen and (min-width: 1000px) {
+	.header, .footer {
+		width: 960px;
+	}
+}
+
 .logo {
-	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
-	width: 600px;
 	text-align: left;
 	margin: 0;
 }
@@ -43,15 +48,27 @@ body {
 }
 
 .timer {
-	float: left;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 70px;
 	text-align: left;
 }
 
-.column {
-	width: 50%;
-	float: left;
+@media screen and (min-width: 1000px) {
+	.logo {
+		float: left;
+		width: 600px;
+	}
+
+	.timer {
+		float: left;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.column {
+		width: 50%;
+		float: left;
+	}
 }
 
 .nav {
@@ -66,14 +83,22 @@ body {
 
 .tile__link {
 	margin: 10px;
-	width: 230px;
-	height: 142px;
 	background-color: #3095d3;
-	float: left;
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
 	display: block;
+	padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+	.tile__link {
+		width: 230px;
+		height: 142px;
+		float: left;
+		text-align: center;
+		padding: 0;
+	}
 }
 
 .tile__link:hover, .tile__link:focus {
@@ -98,11 +123,16 @@ body {
 
 .tile_full-width {
 	margin: 10px;
-	height: 142px;
 	background-color: #ee5a32;
 	font-size: 26px;
 	padding: 30px;
 	line-height: 150%;
+}
+
+@media screen and (min-width: 1000px) {
+	.tile_full-width {
+		height: 142px;
+	}
 }
 
 .tile__icon {
@@ -127,7 +157,12 @@ body {
 	background-color: #666;
 	text-align: justify;
 	padding: 30px;
-	height: 304px;
+}
+
+@media screen and (min-width: 1000px) {
+	.main {
+		height: 304px;
+	}
 }
 
 .main__title {
@@ -137,13 +172,21 @@ body {
 
 .social__link {
 	margin: 10px;
-	width: 105px;
-	height: 142px;
 	background-color: #d94348;
-	float: left;
 	color: #fff;
 	text-decoration: none;
 	display: block;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+	.social__link {
+		width: 105px;
+		height: 142px;
+		float: left;
+		padding: 0;
+	}
 }
 
 .social_youtube .social__link:hover, .social_youtube .social__link:focus {

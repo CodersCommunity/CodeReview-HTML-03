@@ -6,6 +6,6 @@ Temat: http://forum.pasja-informatyki.pl/146286/cr-html-%233-linkowanie-podstron
 
 ---
 
-Ten branch zawiera kod z brancha [`html5`](https://github.com/CodersCommunity/CodeReview-HTML-03/tree/html5) przepisany zgodnie z [metodologią BEM](https://bem.info).
+Ten branch zawiera kod z brancha [`bem`](https://github.com/CodersCommunity/CodeReview-HTML-03/tree/bem) przepisany zgodnie z [metodologią RWD](https://en.wikipedia.org/wiki/Responsive_web_design) (odłam [mobile/content first](https://codemyviews.com/blog/mobilefirst)).
 
-Przepisanie na BEM ułatwiło także refactoring CSS-a i spowodowało usunięcie zdublowanego kodu. Dodatkowo dodałem [wsparcie dla border-boxa](http://www.paulirish.com/2012/box-sizing-border-box-ftw/).
+_**UWAGA!** To szybki Proof of Concept, nie całkowicie gotowe RWD!_
